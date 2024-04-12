@@ -12,8 +12,8 @@
         <br>  
         <div>
             <h1>Simple Interest</h1>
-            <p>Principle (inital deposit): </p> 
-            <input type="number" id="simpleInterstPrinciple" >
+            <p>Principal (inital deposit): </p> 
+            <input type="number" id="simpleInterstPrincipal" >
             <br>
             <p>Rate in percetange (e.g. 5): </p> 
             <input type="number" id="simpleInterstRate" >
@@ -24,9 +24,26 @@
             <p id="simpleInterstAnswer"></p>
             <p id="simpleInterstAnswer2"></p>
             <br>
-            <button onclick="simpleInterestCalc()">Calculate Arithmetic Number</button>
+            <button onclick="simpleInterestCalc()">Calculate Simple Interest</button>
         </div>
-        <br> 
+        <br>
+        <div>
+            <h1>Compound Interest</h1>
+            <p>Principal (inital deposit): </p> 
+            <input type="number" id="compoundInterestPrincipal" >
+            <br>
+            <p>Rate in percetange (e.g. 5): </p> 
+            <input type="number" id="compoundInterestRate" >
+            <br>
+            <p>Time: </p> 
+            <input type="number" id="compoundInterestTime" >
+            <br>
+            <p id="compoundInterestAnswer"></p>
+            <p id="compoundInterestAnswer2"></p>
+            <br>
+            <button onclick="compoundInterestCalc()">Calculate Compound Interest</button>
+        </div>
+        <br>
         <div id="LC">
             <h1>Loan Calculator</h1>
             <p>Loan amount: </p>
