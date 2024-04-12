@@ -1,3 +1,4 @@
+//simple Interest
 function simpleInterestCalc(){
     var Principal = Number(document.getElementById("simpleInterstPrincipal").value)
     var rate = Number(document.getElementById("simpleInterstRate").value)/100
@@ -5,6 +6,7 @@ function simpleInterestCalc(){
     document.getElementById("simpleInterstAnswer").innerText= ("The interest is $")+comma((Principal*rate*time));
     document.getElementById("simpleInterstAnswer2").innerText= ("The total amount is $")+comma((Principal*rate*time+Principal));
 };
+//compound Interest
 function compoundInterestCalc(){
     var Principal = Number(document.getElementById("compoundInterestPrincipal").value)
     var rate = Number(document.getElementById("compoundInterestRate").value)/100
